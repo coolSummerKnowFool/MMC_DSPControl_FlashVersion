@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "1",
+            "includePath": [
+                "C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include",
+                "${workspaceFolder}",
+                "${workspaceFolder}/DSP2833x_Libraries/common/include",
+                "${workspaceFolder}/DSP2833x_Libraries/headers/include",
+                "${workspaceFolder}/APP/leds",
+                "${workspaceFolder}/APP/tim",
+                "${workspaceFolder}/APP/uart_fifo",
+                "${workspaceFolder}/APP/exti",
+                "${workspaceFolder}/APP/printf",
+                "${workspaceFolder}/APP/basic",
+                "${workspaceFolder}/APP/spi_fifo",
+                "${workspaceFolder}/APP/spi_fifo/oled",
+                "${workspaceFolder}/APP/spi_fifo/flash",
+                "${workspaceFolder}/APP/adc",
+                "${workspaceFolder}/APP/menu",
+                
+                // 待开发与移植：spi、oled、flash、menu、pwm、adc等
+                "${workspaceFolder}/APP/epwm",
+                "${workspaceFolder}/APP/control"
+            ],
+            "defines": [],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "D:/Mingw64/mingw64/mingw64/bin/gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
